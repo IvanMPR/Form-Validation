@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f1faee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(168, 218, 220);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hidden {
+  visibility: hidden;
+}
+.visible {
+  visibility: visible;
+}
+.red-text {
+  color: rgb(230, 57, 70);
+}
+.red-border {
+  border: 2px solid rgb(230, 57, 70);
+}
+.green {
+  border: 2px solid rgb(6, 214, 160);
+}
+
+form {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(29, 53, 87);
+  box-shadow: 0 2px 5px 5px rgba(29, 53, 87, 0.1);
+  background: #f1faee;
+  width: 40rem;
+  height: 52rem;
+  border-radius: 0.5rem;
+  margin-top: 10rem;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 1rem;
+  text-align: center;
+  color: rgb(29, 53, 87);
+}
+input {
+  width: 90%;
+  padding: 0.5rem;
+  font-size: 1.8rem;
+}
+label {
+  align-self: flex-start;
+  margin-left: 5%;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  border: 1px solid rgb(29, 53, 87);
+  padding: 0.8rem;
+  width: 90%;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: block;
+  margin: 3rem auto 0;
+  background: rgb(69, 123, 157);
+  color: rgb(255, 255, 255);
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background: hsl(203, 39%, 35%);
+}
+
+.elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.error {
+  margin-top: 0.5rem;
+  text-align: left;
+  width: 90%;
+  font-style: italic;
+  font-size: 1.2rem;
+}
