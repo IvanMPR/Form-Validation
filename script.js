@@ -38,7 +38,7 @@ function checkUsernameInput(str) {
   }
 }
 function checkEmailInput(str) {
-  if (str.includes('@')) {
+  if (str.includes('@') && str.includes('.')) {
     show(emailError, emailInput);
   } else {
     hide(emailInput, emailError);
