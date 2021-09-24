@@ -68,25 +68,25 @@ input {
 /* *** Placeholder styling *** */
 /* Chrome/Opera/Safari */
 input::-webkit-input-placeholder {
-  color: rgba(168, 218, 220, 0.6);
+  color: rgba(168, 218, 220, 0.7);
   font-style: italic;
   font-size: 1.6rem;
 }
 /* Firefox 19+ */
 input::-moz-placeholder {
-  color: rgba(168, 218, 220, 0.6);
+  color: rgba(168, 218, 220, 0.7);
   font-style: italic;
   font-size: 1.6rem;
 }
 /* IE 10+ */
 input:-ms-input-placeholder {
-  color: rgba(168, 218, 220, 0.6);
+  color: rgba(168, 218, 220, 0.7);
   font-style: italic;
   font-size: 1.6rem;
 }
 /* Firefox 18- */
 input:-moz-placeholder {
-  color: rgba(168, 218, 220, 0.6);
+  color: rgba(168, 218, 220, 0.7);
   font-style: italic;
   font-size: 1.6rem;
 }
