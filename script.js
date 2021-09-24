@@ -1,6 +1,7 @@
 'use-strict';
 
 const btn = document.querySelector('button');
+const resetBtn = document.querySelector('.reset-btn');
 const errorParagraphs = document.querySelectorAll('.error');
 
 const userInput = document.getElementById('user-input');
@@ -17,6 +18,14 @@ const password2Error = document.querySelector('.password2-error');
 
 window.addEventListener('load', function () {
   errorParagraphs.forEach(p => p.classList.add('hidden'));
+});
+resetBtn.addEventListener('click', () => {
+  document.querySelectorAll('input').forEach(input => {
+    input.classList.remove('green', 'red-border');
+  });
+  errorParagraphs.forEach(para => {
+    para.classList.remove('visible');
+  });
 });
 
 btn.addEventListener('click', e => {
