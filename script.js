@@ -53,7 +53,7 @@ function checkUsernameInput(str) {
   }
 }
 function checkEmailInput(str) {
-  if (str.includes('@') && str.includes('.')) {
+  if (str.includes('@') && str.includes('.') && str.length >= 8) {
     show(emailError, emailInput);
   } else {
     hide(emailInput, emailError);
